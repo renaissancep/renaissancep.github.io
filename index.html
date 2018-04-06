@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        
+    </script>
+    <style>
+        html {
+          font-size: 12px;
+        }
+
+        @media (min-width: 768px) { 
+            html {
+              font-size: 16px;
+            }
+
+        }
+
+        .graddiv { 
+            background-color: #d5ffea;
+            background: linear-gradient(13deg, #c9f0ff 0%, #d5ffea 100%);
+        }
+    </style>
+    
+    <title>Renaissance Piscines</title>
+</head>
+<body style="padding-top: 3.37rem;">
+   
+    <!-- HEADER CI-DESSOUS -->
+    <header>
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-primary">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Renaissance Piscines</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#quisommesnous">Qui sommes-nous ?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#construction">Construction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reno">Rénovation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipements">Équipements</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto pt-1">
+               <li class="nav-item dropdown" style="padding-right: 1rem">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/flag-france.png" alt=""> FR</a>
+                   <div class="dropdown-menu">
+                       <a href="#" class="dropdown-item"><img src="img/flag-united-kingdom.png" alt=""> EN</a>
+                       <a href="#" class="dropdown-item"><img src="img/flag-germany.png" alt=""> DE</a>
+                   </div>
+               </li>
+                <li class="nav-item">
+                    <button class="btn btn-success btn-sm" onClick="window.location.href='https://goo.gl/forms/LODT5maJFdzFMsD82';">Contactez-nous !</button>
+                </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    
+    <!-- LANDING PAGE CI-DESSOUS -->
+    <div style="height: calc(100vh - 3.37rem);" class="graddiv">
+        <div class="container">
+           
+            <div class="d-flex flex-column align-items-center" style="padding-top: 18vh;">
+                <h1><img src="img/test.svg" alt="Renaissance Piscines" style="width: 70vw; height: 25vh;"></h1>
+                <h2 class="text-center" style="padding-top: 2rem;">Construction. Rénovation. Équipements.</h2>
+                <p class="lead text-center">Vingt ans de piscines d'excellence <br class="hidden-md-up"> en Loire-Atlantique (44).</p>
+                
+            </div>
+            
+            <div class="d-flex flex-wrap justify-content-center" style="padding-top: 10vh">
+                <button class="btn btn-primary" onClick="window.location.href='#quisommesnous';">En savoir plus</button>
+                <button class="btn btn-outline-primary" onClick="window.location.href='https://goo.gl/forms/LODT5maJFdzFMsD82';">Contactez-nous</button>
+            </div>
+            
+        </div>
+    </div>
+      
+      <!-- RUBRIQUE QUI SOMMES-NOUS CI-DESSOUS -->
+      <div class="bg-primary" id="quisommesnous">
+          <div class="d-flex flex-column align-items-center text-white container" style="padding-top: 3.6rem;">
+              <h2>Qui sommes-nous ?</h2>
+              <div class="d-flex flex-column align-items-center" style="padding-top: 1rem;">
+                 
+                  <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+                  <h3 style="padding-top: 1rem;">Des techniciens experts</h3>
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu id nunc molestie lacinia. Aenean sit amet ultricies orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu dolor a nibh maximus tempor consequat vel sem. Fusce egestas velit sit amet mi tincidunt malesuada. Ut suscipit interdum libero, sit amet maximus diam laoreet in. Donec non pellentesque ante, vel sollicitudin magna. Etiam suscipit sit amet tortor vitae iaculis. Nullam vel ipsum arcu.</p>
+                  
+                  <div style="padding-bottom: 3rem;"></div>
+                  <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+                  <h3 style="padding-top: 1rem;">Un réseau d'artisans</h3>
+                  <p class="text-center">Nulla malesuada turpis erat, at pharetra sem varius sed. Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. Phasellus tristique erat diam, vitae mattis leo gravida finibus.</p>
+                  
+                  <div style="padding-bottom: 3rem;"></div>
+                  <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+                  <h3 style="padding-top: 1rem;">Témoignages</h3>
+                  <div style="padding-bottom: 1.5rem"></div>
+                  <!-- Div témoignages ci-dessous -->
+                  <div class="col-8">
+                    <blockquote class="blockquote text-right">Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. 
+                      <footer class="blockquote-footer text-white" style="padding-top: 0.2rem"> Jean-Jean, St-Jean en Retz
+                                                                    <img src="http://via.placeholder.com/40x40" alt="" style="padding-left: 0.5rem;">
+                      </footer>
+                    </blockquote>
+                    
+                    <div style="padding-bottom: 1.5rem"></div>
+                    
+                    <blockquote class="blockquote text-left">Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. 
+                      <footer class="blockquote-footer text-white" style="padding-top: 0.2rem"> Jean-Jean, St-Jean en Retz
+                                                                    <img src="http://via.placeholder.com/40x40" alt="" style="padding-left: 0.5rem;">
+                      </footer>
+                    </blockquote>
+                    
+                    <div style="padding-bottom: 1.5rem"></div>
+                    
+                    <blockquote class="blockquote text-right">Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. 
+                      <footer class="blockquote-footer text-white" style="padding-top: 0.2rem"> Jean-Jean, St-Jean en Retz
+                                                                    <img src="http://via.placeholder.com/40x40" alt="" style="padding-left: 0.5rem;">
+                      </footer>
+                    </blockquote>
+                    
+                  </div>
+                  
+                  
+              </div>  
+          </div>
+          
+          <div style="padding-bottom: 3.6rem;"></div>
+      </div>
+      
+      <!-- RUBRIQUE CONSTRUCTION CI-DESSOUS -->
+      <div class="graddiv" id="construction">
+          <div class="d-flex flex-column align-items-center text-center container" style="padding-top: 3.6rem;">
+              <h2>Construction</h2>
+              <p class="lead" style="padding-bottom: 2rem">Vingt ans de Piscines Traditionnelles à l'épreuve du temps.</p>
+              
+              <a href="#">
+                  <img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" alt="" style="max-width: 10rem; height: auto">
+                  <p style="padding-top: 1rem"><strong>VOIR NOS REALISATIONS SUR INSTAGRAM</strong></p>
+              </a>
+              
+              <h3 style="padding-top: 2rem">De A à Z</h3>
+              <p>
+                  Aenean nec ornare lectus, ut consectetur lectus. In dolor dolor, consequat vulputate molestie sit amet, varius quis felis. Phasellus malesuada eu tortor quis auctor. Vivamus id nisl quis tellus efficitur ultricies. Nam non nisl nunc. Aliquam eu rhoncus turpis. Donec dictum elementum diam eu interdum. Donec aliquet, nunc eget tincidunt vestibulum, nunc ex posuere nulla, nec malesuada ligula nisi nec nulla. Aliquam dictum quis justo et gravida. Fusce ac ultrices quam. Morbi non lacus non mi commodo interdum.
+              </p>
+              
+              <div style="padding-bottom: 3rem;"></div>
+              <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+              <h3 style="padding-top: 1rem;">Construction traditionnelle</h3>
+              <p class="text-center">Nulla malesuada turpis erat, at pharetra sem varius sed. Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. Phasellus tristique erat diam, vitae mattis leo gravida finibus.</p>
+              <h5>Avantages de la construction béton</h5>
+              <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+              <h5>Pourquoi ne posons-nous pas de coques</h5>
+              <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+              
+              <div style="padding-bottom: 3rem;"></div>
+              <h4 class="pb-2">Nous contacter pour un projet de construction ?</h4>
+              <button class="btn btn-success" onClick="window.location.href='https://goo.gl/forms/LODT5maJFdzFMsD82';">C'est par ici !</button>
+              
+              
+              <p style="padding-bottom: 3.6rem;"></p>
+          </div>
+      </div>
+    
+    <!-- RUBRIQUE RENOVATION CI-DESSOUS -->
+    <div class="bg-primary" id="reno">
+        <div class="d-flex flex-column align-items-center text-center text-white container" style="padding-top: 3.6rem;">
+            <h2>Rénovation</h2>
+            <p class="lead"  style="padding-bottom: 2rem">La rénovation de piscines est au coeur du projet Renaissance depuis le tout départ.</p>
+            
+              <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+              <h3 style="padding-top: 1rem;">Spécialistes de la rénovation</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu id nunc molestie lacinia. Aenean sit amet ultricies orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu dolor a nibh maximus tempor consequat vel sem. Fusce egestas velit sit amet mi tincidunt malesuada. Ut suscipit interdum libero, sit amet maximus diam laoreet in. Donec non pellentesque ante, vel sollicitudin magna. Etiam suscipit sit amet tortor vitae iaculis. Nullam vel ipsum arcu.</p>
+
+              <div style="padding-bottom: 3rem;"></div>
+              <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+              <h3 style="padding-top: 1rem;">Un second souffle pour votre piscine</h3>
+              <p class="text-center">Nulla malesuada turpis erat, at pharetra sem varius sed. Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. Phasellus tristique erat diam, vitae mattis leo gravida finibus.</p>
+            
+            <div style="padding-bottom: 3rem;"></div>
+            <h3>Comment se déroule une rénovation ?</h3>
+            <p >Découvrez en images.</p>
+            
+            <div id="accordion" class="text-muted">
+             <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Avant / Après
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-block">
+                        <h4>Lorem Ipsum</h4>
+                        <p>Dolor sit amet</p>
+                      <div id="carousel1" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel1" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Etape 1
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-block">
+                        <h4>Lorem Ipsum</h4>
+                        <p>Dolor sit amet</p>
+                      <div id="carousel2" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel2" data-slide-to="1"></li>
+                                <li data-target="#carousel2" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Third slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Etape 2
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-block">
+                        <h4>Lorem Ipsum</h4>
+                        <p>Dolor sit amet</p>
+                      <div id="carousel3" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel3" data-slide-to="1"></li>
+                                <li data-target="#carousel3" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Third slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Etape 3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-block">
+                     <h4>Lorem Ipsum</h4>
+                     <p>Dolor sit amet</p>
+                      <div id="carousel4" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel4" data-slide-to="1"></li>
+                                <li data-target="#carousel4" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Third slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Etape 4
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-block">
+                     <h4>Lorem Ipsum</h4>
+                     <p>Dolor sit amet</p>
+                      <div id="carousel5" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel5" data-slide-to="1"></li>
+                                <li data-target="#carousel5" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Third slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Etape finale
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-block">
+                     <h4>Lorem Ipsum</h4>
+                     <p>Dolor sit amet</p>
+                      <div id="carousel6" class="carousel slide" data-ride="false">
+                          <ol class="carousel-indicators">
+                                <li data-target="#carousel6" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel6" data-slide-to="1"></li>
+                                <li data-target="#carousel6" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="First slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Second slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block img-fluid" src="http://via.placeholder.com/1203x902" alt="Third slide" style="max-width: 60vw; max-height: calc(3/4*60vw);">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+              <div style="padding-bottom: 3rem;"></div>
+              <h4 class="pb-2">Nous contacter pour une rénovation ?</h4>
+              <button class="btn btn-success" onClick="window.location.href='https://goo.gl/forms/LODT5maJFdzFMsD82';">Cliquez ici !</button>
+              
+            <p style="padding-bottom: 3.6rem;"></p>
+        </div>
+    </div>
+    
+    <!-- RUBRIQUE EQUIPEMENTS CI-DESSOUS -->
+    <div class="graddiv" id="equipements">
+        <div class="d-flex flex-column align-items-center text-center container" style="padding-top: 3.6rem;">
+            <h2>Équipements</h2>
+            <p class="lead" style="padding-bottom: 2rem">Gagnez en sérénité et en confort de baignade avec des équipements à la pointe de la technologie.</p>
+            
+          <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+          <h3 style="padding-top: 1rem;">Traitement de l'eau</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Type de traitement 1</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+          <h5>Type de traitement 2</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+          
+
+          <div style="padding-bottom: 3rem;"></div>
+          <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+          <h3 style="padding-top: 1rem;">Protection</h3>
+          <p class="text-center">Nulla malesuada turpis erat, at pharetra sem varius sed.</p>
+          <h5>Volets de piscine</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+          <h5>Sécurité enfants</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+          
+
+          <div style="padding-bottom: 3rem;"></div>
+
+          <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+          <h3 style="padding-top: 1rem;">Robots nettoyeurs</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Type de robot 1</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+          <h5>Type de robot 2</h5>
+          <p>Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac.</p>
+
+          <div style="padding-bottom: 3rem;"></div>
+          <img src="http://via.placeholder.com/200x200" alt="" style="width: 13rem; height: 13rem; max-width: 200px; max-height: 200px;" class="rounded-circle">
+          <h3 style="padding-top: 1rem;">Autres équipements / Avantages concurrentiels</h3>
+          <p class="text-center">Nulla malesuada turpis erat, at pharetra sem varius sed. Suspendisse elementum massa tortor, quis porttitor nisl aliquet a. Mauris in turpis leo. Morbi facilisis vestibulum erat, non porta ligula lacinia ac. Sed eu mattis orci, ut tempus enim. Ut facilisis id est at porta. Phasellus tristique erat diam, vitae mattis leo gravida finibus.</p>
+            
+        <p style="padding-bottom: 3.6rem;"></p>    
+        </div>
+    </div>
+    
+    
+    
+    
+    <!-- FOOTER CI-DESSOUS -->
+    <footer class="bg-primary">
+        <div class="d-flex flex-column align-items-center text-center text-white container" style="padding-top: 1.8rem;">
+        <button type="button" class="btn btn-success btn-lg btn-block" onClick="window.location.href='https://goo.gl/forms/LODT5maJFdzFMsD82';">Contactez-nous !</button>
+        <p class="pt-4">Toutes mentions légales ici + mentions CNIL</p>
+        
+        </div>
+    </footer>
+</body>
+</html>
