@@ -7,8 +7,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script>
-        
+    <script type="text/javascript">
+        $(window).bind("load", function() {  
+            $('#bgvid').load('img/rdd.mp4');
+        }); 
     </script>
     <style>
         html {
@@ -24,7 +26,20 @@
 
         .graddiv { 
             background-color: #d5ffea;
-            background: linear-gradient(13deg, #c9f0ff 0%, #d5ffea 100%);
+            background: linear-gradient(15deg, rgba(201, 240, 255, 1), rgba(213, 255, 234, 1));
+        }
+        
+        .grading { 
+            background-color: #d5ffea;
+/*            background: linear-gradient(5deg, rgba(201, 240, 255, 0), rgba(213, 255, 234, 1));*/
+            background: radial-gradient(rgba(213, 255, 234, 1), rgba(201, 240, 255, 0.4));
+        }
+        
+        video#bgvid {
+          position: fixed; right: 0; bottom: 0;
+          min-width: 100vw; min-height: 100vh;
+          width: auto; height: auto; z-index: -100;
+          background-size: cover;
         }
     </style>
     
@@ -71,7 +86,10 @@
     </header>
     
     <!-- LANDING PAGE CI-DESSOUS -->
-    <div style="height: calc(100vh - 3.37rem);" class="graddiv">
+    <div style="height: calc(100vh - 3.37rem);" class="grading">
+       <video autoplay loop id="bgvid">
+          <source src="img/rdd.mp4" type="video/mp4">
+       </video>
         <div class="container">
            
             <div class="d-flex flex-column align-items-center" style="padding-top: 18vh;">
